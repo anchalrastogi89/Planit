@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-24T22:36:53 IST" name="Jupiter Automation Test Suite" finished-at="2022-04-24T22:37:34 IST" duration-ms="41463">
+    <groups>
+    </groups>
+    <test started-at="2022-04-24T22:36:53 IST" name="Free CRM App Test Cases" finished-at="2022-04-24T22:37:34 IST" duration-ms="41463">
+      <class name="JupiterAutomationTestcases.ContactPageTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:36:53 IST" name="setUp" finished-at="2022-04-24T22:37:00 IST" duration-ms="6689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_error_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:00 IST" name="validate_error_message" data-provider="getContactDetail" finished-at="2022-04-24T22:37:02 IST" duration-ms="1512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anchal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rastogi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[anchal122@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.70534602E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome to contact page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_error_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:02 IST" name="tearDown" finished-at="2022-04-24T22:37:02 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:02 IST" name="setUp" finished-at="2022-04-24T22:37:07 IST" duration-ms="5082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_success_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:07 IST" name="validate_success_message" data-provider="getContactDetailMul" finished-at="2022-04-24T22:37:08 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[One]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.70778567E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_success_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:08 IST" name="tearDown" finished-at="2022-04-24T22:37:08 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:08 IST" name="setUp" finished-at="2022-04-24T22:37:11 IST" duration-ms="3598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_success_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:11 IST" name="validate_success_message" data-provider="getContactDetailMul" finished-at="2022-04-24T22:37:12 IST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Two]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.70778568E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_success_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:12 IST" name="tearDown" finished-at="2022-04-24T22:37:12 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:12 IST" name="setUp" finished-at="2022-04-24T22:37:17 IST" duration-ms="4902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_success_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:17 IST" name="validate_success_message" data-provider="getContactDetailMul" finished-at="2022-04-24T22:37:18 IST" duration-ms="614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Three]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.70778569E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_success_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:18 IST" name="tearDown" finished-at="2022-04-24T22:37:18 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:18 IST" name="setUp" finished-at="2022-04-24T22:37:22 IST" duration-ms="4570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_success_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:22 IST" name="validate_success_message" data-provider="getContactDetailMul" finished-at="2022-04-24T22:37:23 IST" duration-ms="607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Four]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test4@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.7077857E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_success_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:23 IST" name="tearDown" finished-at="2022-04-24T22:37:23 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:23 IST" name="setUp" finished-at="2022-04-24T22:37:28 IST" duration-ms="4747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_success_message(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:28 IST" name="validate_success_message" data-provider="getContactDetailMul" finished-at="2022-04-24T22:37:28 IST" duration-ms="614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Five]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test5@test.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4.70778571E8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_success_message -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.ContactPageTestcase@1b2abca6]" started-at="2022-04-24T22:37:28 IST" name="tearDown" finished-at="2022-04-24T22:37:29 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JupiterAutomationTestcases.ContactPageTestcase -->
+      <class name="JupiterAutomationTestcases.AddProductTestcase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JupiterAutomationTestcases.AddProductTestcase@29215f06]" started-at="2022-04-24T22:37:29 IST" name="setUp" finished-at="2022-04-24T22:37:33 IST" duration-ms="4319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_product()[pri:0, instance:JupiterAutomationTestcases.AddProductTestcase@29215f06]" started-at="2022-04-24T22:37:33 IST" name="add_product" finished-at="2022-04-24T22:37:34 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_product -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JupiterAutomationTestcases.AddProductTestcase@29215f06]" started-at="2022-04-24T22:37:34 IST" name="tearDown" finished-at="2022-04-24T22:37:34 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- JupiterAutomationTestcases.AddProductTestcase -->
+    </test> <!-- Free CRM App Test Cases -->
+  </suite> <!-- Jupiter Automation Test Suite -->
+</testng-results>
